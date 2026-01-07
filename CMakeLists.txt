@@ -15,6 +15,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # -------------------------
 add_library(drone_core
     src/math/Vector3D.cpp
+    src/control/FlightStateMachine.cpp
 )
 
 target_include_directories(drone_core
